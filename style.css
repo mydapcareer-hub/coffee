@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Miniver&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Miniver", cursive;
+}
+
+
+/*styling for the entire site*/
+
+main {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: none;
+}
+
+img {
+width: 100%;
+height: auto;
+
+}
+
+body {
+    background-color: #451c1c;
+    
+}
+
+.section-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    flex: 1;
+  
+}
+
+
+/* end of styling for the entire site*/
+
+
+
+
+
+/*navbar menu styling*/
+header {
+    background-color: #451c1c;
+    color: #fff;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-logo .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #810b0b;
+    text-decoration: none;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link {
+    padding: 15px 36px;
+    color: #fff;
+    font-size: 16px;
+    background: #451c1c;;
+    border-radius: 5px;
+}
+
+.navbar .nav-menu .nav-link:hover {
+    background-color: #e6c80a;
+    color: #451c1c;
+}
+
+/*end of navbar menu styling*/
+
+
+/*body starts here*/
+.hero-section {
+    background-color: #451c1c;
+}
+
+.hero-section .sectioncontent {
+    display: flex;
+    align-items: center;
+min-height: 100vh;
+color: #fff;
+justify-content: space-between;
+
+}
+
+.hero-image-wrapper {
+    flex: 1;
+    position: relative;
+    display: flex;
+        height: 1000px;  /* Add this - adjust size as needed */
+}
+
+.hero-image-wrapper img {
+    width: 1250px;
+    height: 900px;
+margin-top: -100px;
+}
+
+.hero-image-wrapper .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin-top: -50px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.hero-image-wrapper a.title {
+    text-decoration: none;
+    color: rgb(77, 40, 11);
+    cursor: pointer;
+}
+
+.hero-image-wrapper a.title:hover {
+    color: #fffffe;
+
+
+}
+
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border-style: solid;
+    border-color: #e6c80a;
+    background-color: #c6740a;
+    border-radius: 36px;
+}
+
+
+
+
+
+
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Georgia", serif;  /* or another font you like */
+color: white;
+}
+
+.hero-section .hero-details .title {
+font-size: 30px;
+color: yellow;
+font-family: "Georgia", serif;  /* or another font you like */
+
+}
+
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 900px) {
+    .navbar .nav-menu {
+        display: block; /* Hide the menu on smaller screens */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        background-color: #f6f3f3;
+    }
+}
+
+.navar .nav-menu .nav-link { 
+    color:#c6740a #cb0d0d;
+    display: block;
+    margin-top: 17px;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
