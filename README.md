@@ -12,8 +12,9 @@
 __________________________*readme____________________________
 ----------------------------------------------------------------
 1. to open website click on coffee.html
-2. (formerly known as index.html)
-3. style.css containts styles
+2. www.jediprojects.com/
+3. (formerly known as index.html)
+4. style.css containts styles
                            Enoy my free code
 -----------------------------------------------------------------
 _________________________________________________________________
